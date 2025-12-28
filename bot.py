@@ -4,12 +4,12 @@ from pyrogram import Client, filters
 from pymongo import MongoClient
 
 # ===== ENV VARIABLES =====
-API_ID = int(os.environ["API_ID"])
-API_HASH = os.environ["API_HASH"]
+API_ID = int(os.environ["27166502"])
+API_HASH = os.environ["35b9c34a2b29b20bdae81d82e2863cec"]
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-OWNER_ID = int(os.environ["OWNER_ID"])
-MONGO_URI = os.environ["MONGO_URI"]
-LOG_CHANNEL_ID = int(os.environ["LOG_CHANNEL_ID"])  # private channel id
+OWNER_ID = int(os.environ["7012709838"])
+MONGO_URI = os.environ["mongodb+srv://adarshrajputx:CxjiTK56oacjwg78@cluster0.72l1y2f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"]
+LOG_CHANNEL_ID = int(os.environ["-1003454021940"])  # private channel id
 
 # ===== MONGO SETUP =====
 mongo = MongoClient(MONGO_URI)
